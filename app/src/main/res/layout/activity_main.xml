@@ -36,4 +36,14 @@
         android:layout_height="wrap_content"
         android:text="Reset"
         android:enabled="false"/>
+
+     <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:layout_below="@id/btnReset"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
 </LinearLayout>
